@@ -14,7 +14,7 @@ from metrics.metrics import DB_CONNECTIONS
 app = FastAPI(
     title="FountainData API: Flow Control",
     description="High-performance data validation and adaptive schema enforcement service.",
-    version="3.0.0"
+    version="1.0.0"
 )
 
 # --- GLOBAL MIDDLEWARE ---
